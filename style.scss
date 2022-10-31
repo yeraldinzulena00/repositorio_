@@ -1,0 +1,20 @@
+$morado:rgb(234, 53, 109);
+
+$theme-colors: (
+ 
+  "morado": $morado,
+
+);
+$custom-colors: (
+  "morado" :rgb(234, 53, 109),
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors );
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
